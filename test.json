@@ -4,7 +4,11 @@
     "da": "Søg",
     "fi": "Hae",
     "no": "Søk",
-    "en": "Search"
+    "en": "Search",
+    "meta": {
+      "sv": {
+        "approved": true
+      }
   },
   "menu_saved": {
     "sv": "Sparade",
