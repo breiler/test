@@ -4,13 +4,13 @@
     "da": "Tilføj",
     "fi": "Lisää",
     "no": "Leg til",
-    "en": "Add"
+    "en": "Add me "
   },
   "list_item_modal_add_cancel": {
     "sv": "Avbryt",
     "da": "Annuller",
     "fi": "Peruuta",
     "no": "Avbryt",
-    "en": "Cancel"
+    "en": "Cancel me"
   }
 }
