@@ -1,8 +1,16 @@
 {
-  "test": {
-    "SV": "Testar",
-    "DA": "Grejar",
-    "NO": "Snyggar till",
-    "FI": "Jau"
-  }
+"list_item_modal_add_confirm": {
+    "sv": "Lägg till",
+    "da": "Tilføj",
+    "no": "Leg til",
+    "fi": "Lisää",
+    "en": "Add",
+  },
+  "list_item_modal_add_cancel": {
+    "sv": "Avbryt",
+    "da": "Annuller",
+    "no": "Avbryt",
+    "fi": "Peruuta",
+    "en": "Cancel",
+  },
 }
