@@ -21,7 +21,12 @@
     "sv" : "Sparade",
     "da" : "Gemte",
     "fi" : "Tallennetut",
-    "no" : "Lagrede"
+    "no" : "Lagrede",
+    "meta" : {
+      "sv" : {
+        "approved" : true
+      }
+    }
   },
   "menu_createRoute" : {
     "sv" : "Skapa rutt",
