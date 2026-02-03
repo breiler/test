@@ -1,16 +1,29 @@
 {
-  "list_item_modal_add_confirm": {
-    "sv": "Lägg till",
-    "da": "Tilføj",
-    "fi": "Lisää",
-    "no": "Leg til",
-    "en": "Add me "
+  "list_item_modal_add_confirm" : {
+    "sv" : "Lägg till",
+    "da" : "Tilføj",
+    "fi" : "Lisää",
+    "no" : "Leg til",
+    "en" : "Add me ",
+    "meta" : {
+      "sv" : {
+        "approved" : true
+      },
+      "no" : {
+        "approved" : true
+      }
+    }
   },
-  "list_item_modal_add_cancel": {
-    "sv": "Avbryt test",
-    "da": "Annuller",
-    "fi": "Peruuta",
-    "no": "Avbryt",
-    "en": "Cancel me"
+  "list_item_modal_add_cancel" : {
+    "sv" : "Avbryt test",
+    "da" : "Annuller",
+    "fi" : "Peruuta",
+    "no" : "Avbryt",
+    "en" : "Cancel me",
+    "meta" : {
+      "sv" : {
+        "approved" : true
+      }
+    }
   }
 }
