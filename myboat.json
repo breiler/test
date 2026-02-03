@@ -11,6 +11,9 @@
       },
       "no" : {
         "approved" : true
+      },
+      "da" : {
+        "approved" : true
       }
     }
   },
