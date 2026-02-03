@@ -1,16 +1,2193 @@
 {
-  "list_item_modal_add_confirm": {
-    "sv": "Lägg till",
-    "da": "Tilføj",
-    "fi": "Lisää",
-    "no": "Leg til",
-    "en": "Add"
+  "menu_search": {
+    "sv": "Sök",
+    "dk": "Søg",
+    "no": "Søk",
+    "fi": "Hae"
   },
-  "list_item_modal_add_cancel": {
+  "menu_saved": {
+    "sv": "Sparade",
+    "dk": "Gemte",
+    "no": "Lagrede",
+    "fi": "Tallennetut"
+  },
+  "menu_createRoute": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "search_placeholder": {
+    "sv": "Sök efter platser, hamnar och mer",
+    "dk": "Søg efter steder, havne og mere",
+    "no": "Søk etter steder, havner og mer",
+    "fi": "Hae paikkoja, satamia ja muuta"
+  },
+  "search_filter_restaurants": {
+    "sv": "Sjökrogar",
+    "dk": "Søkroer",
+    "no": "Sjøkroer",
+    "fi": "Meriravintolat"
+  },
+  "search_filter_naturalHarbours": {
+    "sv": "Naturhamnar",
+    "dk": "Naturlige havne",
+    "no": "Naturlige havner",
+    "fi": "Luonnonsatamat"
+  },
+  "search_filter_guestHarbours": {
+    "sv": "Gästhamnar",
+    "dk": "Gæstehavne",
+    "no": "Gjestehavner",
+    "fi": "Vierassatamat"
+  },
+  "search_filter_gasStations": {
+    "sv": "Sjömackar",
+    "dk": "Tankstationer",
+    "no": "Bensinstasjoner",
+    "fi": "Bensiiniasemat"
+  },
+  "search_filter_barbecue": {
+    "sv": "Grillplatser",
+    "dk": "Grillpladser",
+    "no": "Grillplasser",
+    "fi": "Grillipaikat"
+  },
+  "search_filter_yellowDot": {
+    "sv": "Pärlor",
+    "dk": "Perler",
+    "no": "Perler",
+    "fi": "Helmiä"
+  },
+  "search_result_guestHarbour": {
+    "sv": "Gästhamn",
+    "dk": "Gæstehavn",
+    "no": "Gjestehavn",
+    "fi": "Vierassatama"
+  },
+  "search_result_restaurant": {
+    "sv": "Sjökrog",
+    "dk": "Søkro",
+    "no": "Sjøkro",
+    "fi": "Meriravintola"
+  },
+  "search_result_gasStation": {
+    "sv": "Sjömack",
+    "dk": "Tankstation",
+    "no": "Bensinstasjon",
+    "fi": "Bensiiniasema"
+  },
+  "search_result_naturalHarbour": {
+    "sv": "Naturhamn",
+    "dk": "Naturlig havn",
+    "no": "Naturlig havn",
+    "fi": "Luonnonsatama"
+  },
+  "harbour_details_guestHarbour": {
+    "sv": "Gästhamn",
+    "dk": "Gæstehavn",
+    "no": "Gjestehavn",
+    "fi": "Vierassatama"
+  },
+  "harbour_details_naturalHarbour": {
+    "sv": "Naturhamn",
+    "dk": "Naturlig havn",
+    "no": "Naturlig havn",
+    "fi": "Luonnonsatama"
+  },
+  "harbour_details_createRoute": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "harbour_details_savePlace": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "harbour_details_copyCoordinates": {
+    "sv": "Kopiera",
+    "dk": "Kopier",
+    "no": "Kopier",
+    "fi": "Kopioi"
+  },
+  "harbour_details_generalDescription": {
+    "sv": "Generell beskrivning",
+    "dk": "Generel beskrivelse",
+    "no": "Generell beskrivelse",
+    "fi": "Yleiskuvaus"
+  },
+  "harbour_details_description": {
+    "sv": "Beskrivning",
+    "dk": "Beskrivelse",
+    "no": "Beskrivelse",
+    "fi": "Kuvaus"
+  },
+  "harbour_details_maritimeDescription": {
+    "sv": "Maritime beskrivning",
+    "dk": "Maritim beskrivelse",
+    "no": "Maritim beskrivelse",
+    "fi": "Merellinen kuvaus"
+  },
+  "harbour_details_text_expand": {
+    "sv": "Visa mindre",
+    "dk": "Vis mindre",
+    "no": "Vis mindre",
+    "fi": "Näytä vähemmän"
+  },
+  "harbour_details_text_collapse": {
+    "sv": "Visa mer",
+    "dk": "Vis mere",
+    "no": "Vis mer",
+    "fi": "Näytä enemmän"
+  },
+  "harbour_popover_createRoute": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "harbour_popover_showDetails": {
+    "sv": "Visa mer",
+    "dk": "Vis detaljer",
+    "no": "Vis detaljer",
+    "fi": "Näytä tiedot"
+  },
+  "map_selector_nauticalMap": {
+    "sv": "Sjökort",
+    "dk": "Søkort",
+    "no": "Sjøkart",
+    "fi": "Merikartta"
+  },
+  "map_selector_hydrographicaMap": {
+    "sv": "Hydro-graphica",
+    "dk": "Hydro-graphica",
+    "no": "Hydro-graphica",
+    "fi": "Hydro-graphica"
+  },
+  "map_selector_aerialMap": {
+    "sv": "Flygfoto",
+    "dk": "Luftfoto",
+    "no": "Flyfoto",
+    "fi": "Ilmakuva"
+  },
+  "map_selector_landMap": {
+    "sv": "Karta",
+    "dk": "Kort",
+    "no": "Kart",
+    "fi": "Kartta"
+  },
+  "map_settings_header": {
+    "sv": "Inställningar",
+    "dk": "Indstillinger",
+    "no": "Innstillinger",
+    "fi": "Asetukset"
+  },
+  "map_settings_ais_boats": {
+    "sv": "AIS-båtar",
+    "dk": "AIS-både",
+    "no": "AIS-båter",
+    "fi": "AIS-veneet"
+  },
+  "map_settings_savedPlaces": {
+    "sv": "Sparade platser",
+    "dk": "Gemte steder",
+    "no": "Lagrede steder",
+    "fi": "Tallennetut paikat"
+  },
+  "menu_saved_places": {
+    "sv": "Mina sparade platser",
+    "dk": "Mine gemte steder",
+    "no": "Mine lagrede steder",
+    "fi": "Omat tallennetut paikat"
+  },
+  "menu_saved_routes": {
+    "sv": "Mina sparade rutter",
+    "dk": "Mine gemte ruter",
+    "no": "Mine lagrede ruter",
+    "fi": "Omat tallennetut reitit"
+  },
+  "menu_saved_tracks": {
+    "sv": "Plåtterspår",
+    "dk": "Gemte spor",
+    "no": "Lagrede spor",
+    "fi": "Tallennetut jäljet"
+  },
+  "mobile_banner_get_app": {
+    "sv": "Hämta app",
+    "dk": "Hent app",
+    "no": "Hent app",
+    "fi": "Lataa sovellus"
+  },
+  "pop_over_save_place": {
+    "sv": "Spara plats",
+    "dk": "Gem sted",
+    "no": "Lagre sted",
+    "fi": "Tallenna paikka"
+  },
+  "pop_over_my_saved_place": {
+    "sv": "Min sparade plats",
+    "dk": "Mit gemte sted",
+    "no": "Mitt lagrede sted",
+    "fi": "Minun tallennettu paikka"
+  },
+  "pop_over_create_route": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "route_editor_auto_route_error_generic": {
+    "sv": "Ett fel uppstod i när rutten beräknades, flytta någon av dina ruttpunkter och prova igen.",
+    "dk": "Der opstod en fejl under beregning af ruten, flyt en af dine rute punkter og prøv igen.",
+    "no": "Det oppstod en feil under beregning av ruten, flytt en av dine rute punkter og prøv igjen.",
+    "fi": "Rutaa laskiessa tapahtui virhe, siirrä yksi reittipisteistä ja yritä uudelleen."
+  },
+  "route_editor_close_confirm_title": {
+    "sv": "Avsluta ruttplaneraren?",
+    "dk": "Afslut ruteplanlæggeren?",
+    "no": "Avslutt ruteplanleggeren?",
+    "fi": "Lopeta reittisuunnittelija?"
+  },
+  "route_editor_close_confirm_message": {
+    "sv": "Alla osparade ändringar kommer att gå förlorade.",
+    "dk": "Alle ikke-gemte ændringer vil gå tabt.",
+    "no": "Alle ikke-lagrede endringer vil gå tapt.",
+    "fi": "Kaikki tallentamattomat muutokset menetetään."
+  },
+  "route_editor_save_error_generic_header": {
+    "sv": "Ett fel uppstod",
+    "dk": "Der opstod en fejl",
+    "no": "Det oppstod en feil",
+    "fi": "Virhe"
+  },
+  "route_editor_save_error_generic_message": {
+    "sv": "Tyvärr gick något gick fel när rutten skulle sparas, vänligen försök igen eller kontakta vår support om problemet kvarstår.",
+    "dk": "Desværre opstod der en fejl under lagring af ruten, prøv igen eller kontakt vores support, hvis problemet fortsætter.",
+    "no": "Dessverre oppstod det en feil under lagring av ruten, prøv igjen eller kontakt vår support hvis problemet vedvarer.",
+    "fi": "Valitettavasti jotain meni pieleen tallennettaessa reittiä, yritä uudelleen tai ota yhteyttä tukeemme, jos ongelma jatkuu."
+  },
+  "route_editor_overlay_route_name_label": {
+    "sv": "Ny rutt",
+    "dk": "Ny rute",
+    "no": "Ny rute",
+    "fi": "Uusi reitti"
+  },
+  "route_editor_overlay_auto_route_button": {
+    "sv": "Auto",
+    "dk": "Auto",
+    "no": "Auto",
+    "fi": "Auto"
+  },
+  "route_editor_overlay_save_button": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "route_editor_overlay_undo_button": {
+    "sv": "Ångra",
+    "dk": "Fortryd",
+    "no": "Angre",
+    "fi": "Kumoa"
+  },
+  "route_list_view": {
+    "sv": "Visa",
+    "dk": "Vis",
+    "no": "Vis",
+    "fi": "Näytä"
+  },
+  "route_list_edit": {
+    "sv": "Redigera",
+    "dk": "Rediger",
+    "no": "Rediger",
+    "fi": "Muokkaa"
+  },
+  "route_list_delete": {
+    "sv": "Radera",
+    "dk": "Slet",
+    "no": "Slett",
+    "fi": "Poista"
+  },
+  "route_list_deleteDialog_header": {
+    "sv": "Radera rutt",
+    "dk": "Slet rute",
+    "no": "Slett rute",
+    "fi": "Poista reitti"
+  },
+  "route_list_deleteDialog_message": {
+    "sv": "Är du säker på att du vill radera denna rutt?",
+    "dk": "Er du sikker på, at du vil slette denne rute?",
+    "no": "Er du sikker på at du vil slette denne ruten?",
+    "fi": "Haluatko varmasti poistaa tämän reitin?"
+  },
+  "route_editor_presenter_route_from_home_harbour": {
+    "sv": "Från min hemmahamn",
+    "dk": "Fra min hjemhavn",
+    "no": "Fra min hjemmehavn",
+    "fi": "Kotisatamastani"
+  },
+  "route_editor_presenter_route_pick_on_map": {
+    "sv": "Välj på kartan",
+    "dk": "Vælg på kortet",
+    "no": "Velg på kartet",
+    "fi": "Valitse kartalta"
+  },
+  "route_editor_presenter_dialog_header": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "route_editor_presenter_dialog_message": {
+    "sv": "Från var vill du starta rutten?",
+    "dk": "Hvor vil du starte ruten?",
+    "no": "Hvor vil du starte ruten?",
+    "fi": "Mistä haluat aloittaa reitin?"
+  },
+  "save_place_editor_textInput_name_label": {
+    "sv": "Namn",
+    "dk": "Navn",
+    "no": "Navn",
+    "fi": "Nimi"
+  },
+  "save_place_editor_textInput_comment_label": {
+    "sv": "Kommentar",
+    "dk": "Kommentar",
+    "no": "Kommentar",
+    "fi": "Kommentti"
+  },
+  "save_place_editor_textInput_comment_placeholder": {
+    "sv": "Lägg till en kommentar för att lättare hitta platsen senare",
+    "dk": "Tilføj en kommentar for at finde stedet nemmere senere",
+    "no": "Legg til en kommentar for å finne stedet lettere senere",
+    "fi": "Lisää kommentti, jotta löydät paikan helpommin myöhemmin"
+  },
+  "save_place_editor_tags_header": {
+    "sv": "Taggar",
+    "dk": "Tags",
+    "no": "Tags",
+    "fi": "Tunnisteet"
+  },
+  "save_place_editor_category_lists_header": {
+    "sv": "Välj lista",
+    "dk": "Vælg liste",
+    "no": "Velg liste",
+    "fi": "Valitse lista"
+  },
+  "save_place_editor_category_lists_edit_button": {
+    "sv": "Editera listor",
+    "dk": "Rediger lister",
+    "no": "Rediger lister",
+    "fi": "Muokkaa listoja"
+  },
+  "save_place_editor_save_button": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "save_place_edit_category_list_textInput_name_label": {
+    "sv": "Listans namn",
+    "dk": "Listens navn",
+    "no": "Listens navn",
+    "fi": "Listan nimi"
+  },
+  "save_place_edit_category_list_textInput_name_placeholder_list_1": {
+    "sv": "Lista 1",
+    "dk": "Liste 1",
+    "no": "Liste 1",
+    "fi": "Lista 1"
+  },
+  "save_place_edit_category_list_textInput_name_placeholder_list_2": {
+    "sv": "Lista 2",
+    "dk": "Liste 2",
+    "no": "Liste 2",
+    "fi": "Lista 2"
+  },
+  "save_place_edit_category_list_textInput_name_placeholder_list_3": {
+    "sv": "Lista 3",
+    "dk": "Liste 3",
+    "no": "Liste 3",
+    "fi": "Lista 3"
+  },
+  "save_place_edit_category_list_textInput_name_placeholder_list_4": {
+    "sv": "Lista 4",
+    "dk": "Liste 4",
+    "no": "Liste 4",
+    "fi": "Lista 4"
+  },
+  "save_place_edit_category_list_textInput_name_placeholder_list_5": {
+    "sv": "Lista 5",
+    "dk": "Liste 5",
+    "no": "Liste 5",
+    "fi": "Lista 5"
+  },
+  "save_place_edit_category_list_save_button": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "save_place_editor_edit_categories_header": {
+    "sv": "Editera listor",
+    "dk": "Rediger lister",
+    "no": "Rediger lister",
+    "fi": "Muokkaa listoja"
+  },
+  "save_place_editor_header": {
+    "sv": "Sparad plats",
+    "dk": "Gemt sted",
+    "no": "Lagret sted",
+    "fi": "Tallennettu paikka"
+  },
+  "saved_place_editor_delete_confirm_title": {
+    "sv": "Radera sparad plats",
+    "dk": "Slet gemt sted",
+    "no": "Slett lagret sted",
+    "fi": "Poista tallennettu paikka"
+  },
+  "saved_place_editor_delete_confirm_message": {
+    "sv": "Är du säker på att du vill radera denna sparade plats? Detta går inte att ångra.",
+    "dk": "Er du sikker på, at du vil slette dette gemte sted? Dette kan ikke fortrydes.",
+    "no": "Er du sikker på at du vil slette dette lagrede stedet? Dette kan ikke angres.",
+    "fi": "Haluatko varmasti poistaa tämän tallennetun paikan? Tätä ei voi peruuttaa."
+  },
+  "saved_place_editor_delete_button": {
+    "sv": "Ta bort",
+    "dk": "Slet",
+    "no": "Slett",
+    "fi": "Poista"
+  },
+  "save_place_pop_over_edit_button": {
+    "sv": "Editera plats",
+    "dk": "Rediger sted",
+    "no": "Rediger sted",
+    "fi": "Muokkaa paikkaa"
+  },
+  "save_place_pop_over_create_route_button": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "save_place_pop_over_encoding_video": {
+    "sv": "Enkodar video",
+    "dk": "Koder video",
+    "no": "Koder video",
+    "fi": "Koodaa video"
+  },
+  "alert_ok_button": {
+    "sv": "Ok",
+    "dk": "Ok",
+    "no": "Ok",
+    "fi": "Ok"
+  },
+  "alert_retry_button": {
+    "sv": "Försök igen",
+    "dk": "Prøv igen",
+    "no": "Prøv igjen",
+    "fi": "Yritä uudelleen"
+  },
+  "alert_select_close_button": {
+    "sv": "Stäng",
+    "dk": "Luk",
+    "no": "Lukk",
+    "fi": "Sulje"
+  },
+  "alert_cancel_button": {
     "sv": "Avbryt",
-    "da": "Annuller",
-    "fi": "Peruuta",
+    "dk": "Annuller",
     "no": "Avbryt",
-    "en": "Cancel"
+    "fi": "Peruuta"
+  },
+  "asset_picker_add_image_or_video": {
+    "sv": "Lägg till bild eller video",
+    "dk": "Tilføj billede eller video",
+    "no": "Legg til bilde eller video",
+    "fi": "Lisää kuva tai video"
+  },
+  "asset_picker_add_image": {
+    "sv": "Lägg till bilder",
+    "dk": "Tilføj billeder",
+    "no": "Legg til bilder",
+    "fi": "Lisää kuvia"
+  },
+  "asset_picker_add_video": {
+    "sv": "Lägg till video",
+    "dk": "Tilføj video",
+    "no": "Legg til video",
+    "fi": "Lisää video"
+  },
+  "assets_picker_alert_unappropriate_content_header": {
+    "sv": "Ogiltigt innehåll",
+    "dk": "Ugyldigt indhold",
+    "no": "Ugyldig innhold",
+    "fi": "Virheellinen sisältö"
+  },
+  "asseets_picker_alert_unappropriate_content_message": {
+    "sv": "En av de valda bilderna du har valt är inte lämplig för denna app, vänligen ta bort den.",
+    "dk": "En af de valgte billeder, du har valgt, er ikke passende til denne app, fjern venligst den.",
+    "no": "En av de valgte bildene du har valgt, er ikke passende for denne appen, vennligst fjern den.",
+    "fi": "Yksi valitsemistasi kuvista ei sovellu tähän sovellukseen, poista se."
+  },
+  "assets_picker_alert_failed_to_upload_header": {
+    "sv": "Misslyckades med att ladda upp",
+    "dk": "Kunne ikke uploade",
+    "no": "Kunne ikke laste opp",
+    "fi": "Lataaminen epäonnistui"
+  },
+  "assets_picker_alert_failed_to_upload_message": {
+    "sv": "En av de valda bilderna du har valt kunde inte laddas upp, försök igen eller ta bort bilden",
+    "dk": "En af de valgte billeder, du har valgt, kunne ikke uploades, prøv igen eller fjern billedet",
+    "no": "En av de valgte bildene du har valgt kunne ikke lastes opp, prøv igjen eller fjern bildet",
+    "fi": "Yksi valitsemistasi kuvista ei voitu ladata, yritä uudelleen tai poista kuva"
+  },
+  "review_sheet_boat_error_header": {
+    "sv": "Ett fel uppstod",
+    "dk": "Der opstod en fejl",
+    "no": "Det oppstod en feil",
+    "fi": "Virhe"
+  },
+  "review_sheet_boat_error_message": {
+    "sv": "Kunde inte hämta båtmodellens namn, kontakta gärna vår support@skippo.io om problemet kvarstår",
+    "dk": "Kunne ikke hente båtmodellens navn",
+    "no": "Kunne ikke hente båtmodellens navn",
+    "fi": "Veneen mallin nimeä ei voitu noutaa"
+  },
+  "review_sheet_rating_missing_header": {
+    "sv": "Betyg saknas",
+    "dk": "Mangler vurdering",
+    "no": "Mangler vurdering",
+    "fi": "Arvostelu puuttuu"
+  },
+  "review_sheet_rating_missing_message": {
+    "sv": "Vänligen sätt ett betyg innan du skickar in din recension",
+    "dk": "Vælg en vurdering, før du sender din anmeldelse",
+    "no": "Velg en vurdering før du sender inn anmeldelsen din",
+    "fi": "Valitse arvostelu ennen kuin lähetät arvostelusi"
+  },
+  "review_sheet_upload_asset_failed_header": {
+    "sv": "Misslyckades med att ladda upp",
+    "dk": "Kunne ikke uploade",
+    "no": "Kunne ikke laste opp",
+    "fi": "Lataaminen epäonnistui"
+  },
+  "review_sheet_upload_asset_failed_message": {
+    "sv": "En av de valda bilderna du har valt kunde inte laddas upp, försök igen eller ta bort bilden",
+    "dk": "En af de valgte billeder, du har valgt, kunne ikke uploades, prøv igen eller fjern billedet",
+    "no": "En av de valgte bildene du har valgt kunne ikke lastes opp, prøv igjen eller fjern bildet",
+    "fi": "Yksi valitsemistasi kuvista ei voitu ladata, yritä uudelleen tai poista kuva"
+  },
+  "review_sheet_error_header": {
+    "sv": "Ett fel uppstod",
+    "dk": "Der opstod en fejl",
+    "no": "Det oppstod en feil",
+    "fi": "Virhe"
+  },
+  "review_sheet_error_message": {
+    "sv": "Något gick fel, försök igen",
+    "dk": "Noget gik galt, prøv igen",
+    "no": "Noe gikk galt, prøv igjen",
+    "fi": "Jotain meni pieleen, yritä uudelleen"
+  },
+  "review_sheet_boat_header": {
+    "sv": "Har du erfarenhet av",
+    "dk": "Har du erfaring med",
+    "no": "Har du erfaring med",
+    "fi": "Onko sinulla kokemusta"
+  },
+  "review_sheet_boat_preamble": {
+    "sv": "Dela med dig av din åsikt för att hjälpa andra!",
+    "dk": "Del din mening for at hjælpe andre!",
+    "no": "Del din mening for å hjelpe andre!",
+    "fi": "Jaa mielipiteesi auttaaksesi muita!"
+  },
+  "review_sheet_send_button": {
+    "sv": "Skicka",
+    "dk": "Send",
+    "no": "Send",
+    "fi": "Lähetä"
+  },
+  "review_list_add_review_button": {
+    "sv": "Tyck till!",
+    "dk": "Anmeld!",
+    "no": "Anmeld!",
+    "fi": "Arvostele!"
+  },
+  "review_list_see_more_button": {
+    "sv": "Se fler recensioner",
+    "dk": "Se flere anmeldelser",
+    "no": "Se flere anmeldelser",
+    "fi": "Katso lisää arvosteluja"
+  },
+  "review_list_summary_header": {
+    "sv": "Alla recensioner",
+    "dk": "Alle",
+    "no": "Alle",
+    "fi": "Kaikki arvostelut"
+  },
+  "create_account_error_weak_password": {
+    "sv": "Lösenordet är för kort, måste vara minst 6 tecken",
+    "dk": "Adgangskoden er for svag, skal være mindst 6 tegn",
+    "no": "Passordet er for svakt, må være minst 6 tegn",
+    "fi": "Salasana on liian lyhyt, sen on oltava vähintään 6 merkkiä pitkä"
+  },
+  "create_account_error_email_in_use": {
+    "sv": "E-postadressen är redan registrerad",
+    "dk": "E-mailadressen er allerede i brug",
+    "no": "E-postadressen er allerede registrert",
+    "fi": "Sähköpostiosoite on jo rekisteröity"
+  },
+  "create_account_error_unknown": {
+    "sv": "Ett fel uppstod vid skapandet av kontot",
+    "dk": "Der opstod en fejl under oprettelse af kontoen",
+    "no": "Det oppstod en feil under opprettelsen av kontoen",
+    "fi": "Tilin luonnissa tapahtui virhe"
+  },
+  "create_account_textinput_email_label": {
+    "sv": "E-post*",
+    "dk": "E-mail*",
+    "no": "E-post*",
+    "fi": "Sähköposti*"
+  },
+  "create_account_textinput_password_label": {
+    "sv": "Lösenord*",
+    "dk": "Adgangskode*",
+    "no": "Passord*",
+    "fi": "Salasana*"
+  },
+  "create_account_textinput_given_name_label": {
+    "sv": "Förnamn*",
+    "dk": "Fornavn*",
+    "no": "Fornavn*",
+    "fi": "Etunimi*"
+  },
+  "create_account_textinput_family_name_label": {
+    "sv": "Efternamn*",
+    "dk": "Efternavn*",
+    "no": "Etternavn*",
+    "fi": "Sukunimi*"
+  },
+  "create_account_textinput_birthdate_label": {
+    "sv": "Födelsedatum",
+    "dk": "Fødselsdato",
+    "no": "Fødselsdato",
+    "fi": "Syntymäaika"
+  },
+  "create_account_button_create_account": {
+    "sv": "Skapa konto",
+    "dk": "Opret konto",
+    "no": "Opprett konto",
+    "fi": "Luo tili"
+  },
+  "create_account_header": {
+    "sv": "Skapa konto",
+    "dk": "Opret konto",
+    "no": "Opprett konto",
+    "fi": "Luo tili"
+  },
+  "create_account_preamble": {
+    "sv": "Om du tidigare var Hamnen prenumerant vänligen skapa ett konto med samma e-post adress som du använde på Hamnen.se",
+    "dk": "Hvis du tidligere var Hamnen-abonnent, skal du oprette en konto med den samme e-mail-adresse, som du brugte på Hamnen.se",
+    "no": "Hvis du tidligere var Hamnen-abonnent, skal du oprette en konto med den samme e-mail-adresse, som du brugte på Hamnen.se",
+    "fi": "Jos olit aiemmin Hamnen-tilaaja, luo tili samalla sähköpostiosoitteella, jota käytit Hamnen.se:ssä"
+  },
+  "create_account_divider_label": {
+    "sv": "eller",
+    "dk": "eller",
+    "no": "eller",
+    "fi": "tai"
+  },
+  "create_account_with_google": {
+    "sv": "Skapa konto med Google",
+    "dk": "Opret konto med Google",
+    "no": "Opprett konto med Google",
+    "fi": "Luo tili Googlella"
+  },
+  "create_account_with_apple": {
+    "sv": "Skapa konto med Apple",
+    "dk": "Opret konto med Apple",
+    "no": "Opprett konto med Apple",
+    "fi": "Luo tili Applella"
+  },
+  "date_picker_year_label": {
+    "sv": "År",
+    "dk": "År",
+    "no": "År",
+    "fi": "Vuosi"
+  },
+  "date_picker_month_label": {
+    "sv": "Månad",
+    "dk": "Måned",
+    "no": "Måned",
+    "fi": "Kuukausi"
+  },
+  "date_picker_day_label": {
+    "sv": "Dag",
+    "dk": "Dag",
+    "no": "Dag",
+    "fi": "Päivä"
+  },
+  "signin_email_error_invalid_email_or_password": {
+    "sv": "Felaktigt lösenord eller e-postadress",
+    "dk": "Forkert adgangskode eller e-mailadresse",
+    "no": "Feil passord eller e-postadresse",
+    "fi": "Väärä salasana tai sähköpostiosoite"
+  },
+  "signin_email_error_generic": {
+    "sv": "Ett fel uppstod vid inloggning",
+    "dk": "Der opstod en fejl under log ind",
+    "no": "Det oppstod en feil under innlogging",
+    "fi": "Kirjautumisessa tapahtui virhe"
+  },
+  "signin_email_placeholder": {
+    "sv": "E-post",
+    "dk": "E-mail",
+    "no": "E-post",
+    "fi": "Sähköposti"
+  },
+  "signin_password_placeholder": {
+    "sv": "Lösenord",
+    "dk": "Adgangskode",
+    "no": "Passord",
+    "fi": "Salasana"
+  },
+  "signin_email_button_signin": {
+    "sv": "Logga in",
+    "dk": "Log ind",
+    "no": "Logg inn",
+    "fi": "Kirjaudu sisään"
+  },
+  "forgot_password_header": {
+    "sv": "Återställ lösenord",
+    "dk": "Nulstil adgangskode",
+    "no": "Tilbakestill passord",
+    "fi": "Palauta salasana"
+  },
+  "forgot_password_error_invalid_email": {
+    "sv": "Ogiltig e-postadress",
+    "dk": "Ugyldig e-mailadresse",
+    "no": "Ugyldig e-postadresse",
+    "fi": "Virheellinen sähköpostiosoite"
+  },
+  "forgot_password_error_user_not_found": {
+    "sv": "Användaren hittades inte",
+    "dk": "Brugeren blev ikke fundet",
+    "no": "Brukeren ble ikke funnet",
+    "fi": "Käyttäjää ei löytynyt"
+  },
+  "forgot_password_error_generic": {
+    "sv": "Ett fel uppstod vid återställning av lösenord",
+    "dk": "Der opstod en fejl under nulstilling af adgangskode",
+    "no": "Det oppstod en feil under tilbakestilling av passord",
+    "fi": "Salasanan nollauksessa tapahtui virhe"
+  },
+  "forgot_password_completed": {
+    "sv": "Ett e-postmeddelande har skickats till dig med en länk för att återställa ditt lösenord",
+    "dk": "En e-mail er blevet sendt til dig med et link til at nulstille din adgangskode",
+    "no": "En e-postmelding er sendt til deg med en lenke for å tilbakestille passordet ditt",
+    "fi": "Sähköpostiviesti on lähetetty sinulle linkillä salasanan nollaamiseksi"
+  },
+  "forgot_password_back_to_signin": {
+    "sv": "Tillbaka till inloggning",
+    "dk": "Tilbage til log ind",
+    "no": "Tilbake til innlogging",
+    "fi": "Takaisin kirjautumiseen"
+  },
+  "forgot_password_preamble": {
+    "sv": "Ange din e-postadress så skickar vi en länk för att återställa ditt lösenord",
+    "dk": "Indtast din e-mailadresse, så sender vi dig et link til at nulstille din adgangskode",
+    "no": "Skriv inn e-postadressen din, så sender vi deg en lenke for å tilbakestille passordet",
+    "fi": "Kirjoita sähköpostiosoitteesi, niin lähetämme sinulle linkin salasanan nollaamiseksi"
+  },
+  "forgot_password_submit_button": {
+    "sv": "Skicka",
+    "dk": "Send",
+    "no": "Send",
+    "fi": "Lähetä"
+  },
+  "user_profile_edit_header": {
+    "sv": "Personlig information",
+    "dk": "Personlig information",
+    "no": "Personlig informasjon",
+    "fi": "Henkilökohtaiset tiedot"
+  },
+  "user_profile_edit_given_name_label": {
+    "sv": "Förnamn",
+    "dk": "Fornavn",
+    "no": "Fornavn",
+    "fi": "Etunimi"
+  },
+  "user_profile_edit_family_name_label": {
+    "sv": "Efternamn",
+    "dk": "Efternavn",
+    "no": "Etternavn",
+    "fi": "Sukunimi"
+  },
+  "user_profile_edit_email_label": {
+    "sv": "E-post",
+    "dk": "E-mail",
+    "no": "E-post",
+    "fi": "Sähköposti"
+  },
+  "user_profile_edit_birthdate_label": {
+    "sv": "Födelsedatum",
+    "dk": "Fødselsdato",
+    "no": "Fødselsdato",
+    "fi": "Syntymäaika"
+  },
+  "user_profile_edit_save_button": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "user_profile_manage_alert_hamnen_subscription_title": {
+    "sv": "Hamnen prenumeration",
+    "dk": "Hamnen abonnement",
+    "no": "Hamnen abonnement",
+    "fi": "Hamnen-tilaus"
+  },
+  "user_profile_manage_alert_hamnen_subscription_message": {
+    "sv": "<span> För att hantera din prenumeration, vänligen <strong> <a className={styles.link} target='_blank' href='https://help.skippo.io/sv-SE/support/tickets/new'>kontakta oss</a></strong></span>",
+    "dk": "<span> For at administrere dit abonnement, bedes du <strong> <a className={styles.link} target='_blank' href='https://help.skippo.io/da-DK/support/tickets/new'>kontakte os</a></strong></span>",
+    "no": "<span> For å administrere abonnementet ditt, vennligst <strong> <a className={styles.link} target='_blank' href='https://help.skippo.io/nb-NO/support/tickets/new'>kontakt oss</a></strong></span>",
+    "fi": "<span> Hallitaksesi tilaustasi, ota yhteyttä <strong> <a className={styles.link} target='_blank' href='https://help.skippo.io/fi-FI/support/tickets/new'>meihin</a></strong></span>"
+  },
+  "user_profile_manage_alert_stripe_portal_error_title": {
+    "sv": "Ett fel uppstod",
+    "dk": "Der opstod en fejl",
+    "no": "Det oppstod en feil",
+    "fi": "Virhe"
+  },
+  "user_profile_manage_alert_stripe_portal_error_message": {
+    "sv": "Ett fel uppstod vid öppnandet av portalen, vänligen försök igen",
+    "dk": "Der opstod en fejl under åbning af portalen, prøv igen",
+    "no": "Det oppstod en feil under åpning av portalen, prøv igjen",
+    "fi": "Portaalin avaamisessa tapahtui virhe, yritä uudelleen"
+  },
+  "user_profile_manage_alert_app_subscription_title": {
+    "sv": "App-prenumeration",
+    "dk": "App-abonnement",
+    "no": "App-abonnement",
+    "fi": "Sovellustilaus"
+  },
+  "user_profile_manage_alert_app_subscription_message": {
+    "sv": "För att hantera din prenumeration, vänligen gör det i appen.",
+    "dk": "For at administrere dit abonnement, bedes du gøre det i appen.",
+    "no": "For å administrere abonnementet ditt, vennligst gjør det i appen.",
+    "fi": "Hallitaksesi tilaustasi, tee se sovelluksessa."
+  },
+  "user_profile_header": {
+    "sv": "Hej",
+    "dk": "Hej",
+    "no": "Hei",
+    "fi": "Hei"
+  },
+  "user_profile__preamble": {
+    "sv": "Hantera din information, prenumerationer och integritet för att göra Skippo bättre för dig.",
+    "dk": "Administrer dine oplysninger, abonnementer og privatliv for at gøre Skippo bedre for dig.",
+    "no": "Administrer informasjonen din, abonnementene og personvernet for å gjøre Skippo bedre for deg.",
+    "fi": "Hallitse tietojasi, tilauksiasi ja yksityisyyttäsi tehdäksesi Skipposta paremman sinulle."
+  },
+  "user_profile_subscriptions_header": {
+    "sv": "Mina prenumerationer",
+    "dk": "Mine abonnementer",
+    "no": "Mine abonnementer",
+    "fi": "Tilaukseni"
+  },
+  "user_profile_subscriptions_empty": {
+    "sv": "Du har inga aktiva prenumerationer",
+    "dk": "Du har ingen aktive abonnementer",
+    "no": "Du har ingen aktive abonnementer",
+    "fi": "Sinulla ei ole aktiivisia tilauksia"
+  },
+  "user_profile_subscription_skippo_plus": {
+    "sv": "Obegränsad tillgång till redaktionellt innehåll [Gamla hamnen]",
+    "dk": "Ubegrænset adgang til redaktionelt indhold [Gamla hamnen]",
+    "no": "Ubegrenset tilgang til redaksjonelt innhold [Gamla hamnen]",
+    "fi": "Rajoittamaton pääsy toimitukselliseen sisältöön [Gamla hamnen]"
+  },
+  "user_profile_subscription_manage_button": {
+    "sv": "Hantera",
+    "dk": "Administrer",
+    "no": "Administrer",
+    "fi": "Hallitse"
+  },
+  "user_profile_boat_section_header": {
+    "sv": "Min båt",
+    "dk": "Min båd",
+    "no": "Min båt",
+    "fi": "Veneeni"
+  },
+  "user_profile_boat_section_preamble": {
+    "sv": "Redigera din båtinformation i mobilappen.",
+    "dk": "Rediger din bådinformation i mobilappen.",
+    "no": "Rediger båtinformasjonen din i mobilappen.",
+    "fi": "Muokkaa venetietojasi mobiilisovelluksessa."
+  },
+  "user_profile_sign_out_button": {
+    "sv": "Logga ut",
+    "dk": "Log ud",
+    "no": "Logg ut",
+    "fi": "Kirjaudu ulos"
+  },
+  "user_profile_edit_button_header": {
+    "sv": "Personlig information",
+    "dk": "Personlig information",
+    "no": "Personlig informasjon",
+    "fi": "Henkilökohtais"
+  },
+  "sign_in_providers_header": {
+    "sv": "Logga in",
+    "dk": "Log ind",
+    "no": "Logg inn",
+    "fi": "Kirjaudu sisään"
+  },
+  "sign_in_providers_preamble": {
+    "sv": "Har du inget Skippo-konto?",
+    "dk": "Har du ikke en Skippo-konto?",
+    "no": "Har du ikke en Skippo-konto?",
+    "fi": "Eikö sinulla ole Skippo-tiliä?"
+  },
+  "sign_in_providers_preamble_create_account_button": {
+    "sv": "Skapa konto.",
+    "dk": "Opret konto.",
+    "no": "Opprett konto.",
+    "fi": "Luo tili."
+  },
+  "sign_in_providers_preamble_2": {
+    "sv": "Problem med inlogg?",
+    "dk": "Problemer med login?",
+    "no": "Problemer med innlogging?",
+    "fi": "Ongelmia kirjautumisessa?"
+  },
+  "sign_in_providers_preamble_2_button": {
+    "sv": "Kontakta support",
+    "dk": "Kontakt support",
+    "no": "Kontakt support",
+    "fi": "Ota yhte"
+  },
+  "sign_in_providers_forgotten_password_button": {
+    "sv": "Glömt lösenord?",
+    "dk": "Glemt adgangskode?",
+    "no": "Glemt passord?",
+    "fi": "Unohditko salasanasi?"
+  },
+  "sign_in_providers_divider_label": {
+    "sv": "eller",
+    "dk": "eller",
+    "no": "eller",
+    "fi": "tai"
+  },
+  "sign_in_providers_google_button": {
+    "sv": "Logga in med Google",
+    "dk": "Log ind med Google",
+    "no": "Logg inn med Google",
+    "fi": "Kirjaudu sisään Googlella"
+  },
+  "sign_in_providers_apple_button": {
+    "sv": "Logga in med Apple",
+    "dk": "Log ind med Apple",
+    "no": "Logg inn med Apple",
+    "fi": "Kirjaudu sisään Applella"
+  },
+  "secondary_links_sign_in_button": {
+    "sv": "Logga in",
+    "dk": "Log ind",
+    "no": "Logg inn",
+    "fi": "Kirjaudu sisään"
+  },
+  "secondary_links_sign_out_button": {
+    "sv": "Logga ut",
+    "dk": "Log ud",
+    "no": "Logg ut",
+    "fi": "Kirjaudu ulos"
+  },
+  "secondary_links_download_app_button": {
+    "sv": "Ladda ner appen",
+    "dk": "Download appen",
+    "no": "Last ned appen",
+    "fi": "Lataa sovellus"
+  },
+  "secondary_links_social_links_header": {
+    "sv": "Följ Skippo",
+    "dk": "Følg Skippo",
+    "no": "Følg Skippo",
+    "fi": "Seuraa Skippo"
+  },
+  "top_bar_navigation_login_button": {
+    "sv": "Logga in",
+    "dk": "Log ind",
+    "no": "Logg inn",
+    "fi": "Kirjaudu sisään"
+  },
+  "dropped_pin_pop_up_title": {
+    "sv": "Släppt nål",
+    "dk": "Sluppet pin",
+    "no": "Sluppet pin",
+    "fi": "Pudonnut nastaa"
+  },
+  "share_location_alert_header": {
+    "sv": "Dela plats",
+    "dk": "Del placering",
+    "no": "Del plassering",
+    "fi": "Jaa sijainti"
+  },
+  "share_location_alert_link_title": {
+    "sv": "Platslänk",
+    "dk": "Placering link",
+    "no": "Plasseringslenke",
+    "fi": "Sijaintilinkki"
+  },
+  "share_harbour_alert_header": {
+    "sv": "Dela hamn",
+    "dk": "Del havn",
+    "no": "Del havn",
+    "fi": "Jaa satama"
+  },
+  "share_harbour_alert_link_title": {
+    "sv": "Hamnlänk",
+    "dk": "Havn link",
+    "no": "Havnelink",
+    "fi": "Satamalinkki"
+  },
+  "share_restaurant_alert_header": {
+    "sv": "Dela restaurang",
+    "dk": "Del restaurant",
+    "no": "Del restaurant",
+    "fi": "Jaa ravintola"
+  },
+  "share_restaurant_alert_link_title": {
+    "sv": "Restauranglänk",
+    "dk": "Restaurant link",
+    "no": "Restaurantlink",
+    "fi": "Ravintolalinkki"
+  },
+  "restaurant_details": {
+    "sv": "Sjökrog",
+    "dk": "Sørestaurant",
+    "no": "Sjørestaurant",
+    "fi": "Meriravintola"
+  },
+  "restaurant_popover_createRoute": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "restaurant_popover_showDetails": {
+    "sv": "Visa mer",
+    "dk": "Vis detaljer",
+    "no": "Vis detaljer",
+    "fi": "Näytä tiedot"
+  },
+  "restaurant_details_createRoute": {
+    "sv": "Skapa rutt",
+    "dk": "Opret rute",
+    "no": "Opprett rute",
+    "fi": "Luo reitti"
+  },
+  "restaurant_details_savePlace": {
+    "sv": "Spara",
+    "dk": "Gem",
+    "no": "Lagre",
+    "fi": "Tallenna"
+  },
+  "restaurant_details_copyCoordinates": {
+    "sv": "Kopiera",
+    "dk": "Kopier",
+    "no": "Kopier",
+    "fi": "Kopioi"
+  },
+  "restaurant_details_visit": {
+    "sv": "Besök",
+    "dk": "Besøg",
+    "no": "Besøk",
+    "fi": "Vieraile"
+  },
+  "restaurant_details_generalDescription": {
+    "sv": "Beskrivning",
+    "dk": "Beskrivelse",
+    "no": "Beskrivelse",
+    "fi": "Kuvaus"
+  },
+  "restaurant_details_text_collapse": {
+    "sv": "Visa mindre",
+    "dk": "Vis mindre",
+    "no": "Vis mindre",
+    "fi": "Näytä vähemmän"
+  },
+  "restaurant_details_text_expand": {
+    "sv": "Visa mer",
+    "dk": "Vis mere",
+    "no": "Vis mer",
+    "fi": "Näytä lisää"
+  },
+  "share_gasstation_alert_header": {
+    "sv": "Dela bensinstation",
+    "dk": "Del tankstation",
+    "no": "Del bensinstasjon",
+    "fi": "Jaa huoltoasema"
+  },
+  "share_gasstation_alert_link_title": {
+    "sv": "Bensinstationslänk",
+    "dk": "Tankstation link",
+    "no": "Bensinstasjonslenke",
+    "fi": "Huoltoasemalinkki"
+  },
+  "share_link_alert_header": {
+    "sv": "Informationen är kopierad",
+    "dk": "Information er kopieret",
+    "no": "Informasjonen er kopiert",
+    "fi": "Tiedot on kopioitu"
+  },
+  "share_link_alert_body": {
+    "sv": "Informationen är nu kopierad till urklipp. Klistra in den i en delad konversation för att dela den med andra.",
+    "dk": "Information er nu kopieret til udklipsholderen. Indsæt det i en delt samtale for at dele det med andre.",
+    "no": "Informasjonen er nå kopiert til utklippstavlen. Lim den inn i en delt samtale for å dele den med andre.",
+    "fi": "Tiedot on nyt kopioitu leikepöydälle. Liitä se jaettuun keskusteluun jakamista varten."
+  },
+  "share_link_alert_header_error": {
+    "sv": "Ett fel uppstod",
+    "dk": "Der opstod en fejl",
+    "no": "Det oppstod en feil",
+    "fi": "Virhe"
+  },
+  "share_link_alert_body_error": {
+    "sv": "Försök igen och kontakta gärna vår support på support@skippo.io om problemet kvarstår",
+    "dk": "Prøv igen og kontakt gerne vores support på support@skippo.io hvis problemet fortsætter",
+    "no": "Prøv igjen og kontakt gjerne vår support på support@skippo.io hvis problemet fortsetter",
+    "fi": "Yritä uudelleen ja ota yhteyttä tukemme osoitteeseen support@skippo.io jos ongelmia ilmenee"
+  },
+  "share_link_alert_failed_copy_body": {
+    "sv": "Kopiera länken nedan och dela den med andra.",
+    "dk": "Kopier linket nedenfor og del det med andre.",
+    "no": "Kopier lenken nedenfor og del den med andre.",
+    "fi": "Kopioi alla oleva linkki ja jaa se muiden kanssa."
+  },
+  "inspiration_page_poi_title_guest_harbor": {
+    "sv": "Gästhamn",
+    "dk": "Gæstehavn",
+    "no": "Gjestehavn",
+    "fi": "Vierassatama"
+  },
+  "inspiration_page_poi_title_natural_harbor": {
+    "sv": "Naturhamn",
+    "dk": "Naturhavn",
+    "no": "Naturhavn",
+    "fi": "Naturhamina"
+  },
+  "inspiration_page_poi_title_restaurant": {
+    "sv": "Sjökrog",
+    "dk": "Sørestaurant",
+    "no": "Sjørestaurant",
+    "fi": "Meriravintola"
+  },
+  "inspiration_page_poi_title_septic_station": {
+    "sv": "Tömningsstation",
+    "dk": "Tømningsstation",
+    "no": "Tømmestasjon",
+    "fi": "Tyhjennysasema"
+  },
+  "inspiration_page_poi_title_place": {
+    "sv": "Plats",
+    "dk": "Plads",
+    "no": "Plass",
+    "fi": "Paikka"
+  },
+  "paywall_already_has_entitlement_alert_message": {
+    "sv": "Det verkar som att du redan har tillgång till detta navigationspaket. Tack för att du har valt Skippo!",
+    "dk": "Det ser ud til, at du allerede har adgang til dette navigationspakke. Tak fordi du valgte Skippo!",
+    "no": "Det ser ut til at du allerede har tilgang til dette navigasjonspakke. Takk for at du valgte Skippo!",
+    "fi": "Näyttää siltä, että sinulla on jo pääsy tähän navigointipakettiin. Kiitos, että valitsit Skippon!"
+  },
+  "paywall_duration_month": {
+    "sv": "mån",
+    "dk": "mdr",
+    "no": "mnd",
+    "fi": "kk"
+  },
+  "paywall_duration_year": {
+    "sv": "år",
+    "dk": "år",
+    "no": "år",
+    "fi": "vuosi"
+  },
+  "paywall_billed_annually": {
+    "sv": "Betalas årligen",
+    "dk": "Faktureres årligt",
+    "no": "Faktureres årlig",
+    "fi": "Laskutetaan vuosittain"
+  },
+  "paywall_nautical_navigation_header": {
+    "sv": "Hur vill du navigera?",
+    "dk": "Hvordan vil du navigere?",
+    "no": "Hvordan vil du navigere?",
+    "fi": "Miten haluat navigoida?"
+  },
+  "paywall_nautical_generic_header": {
+    "sv": "Uppgradera din upplevelse",
+    "dk": "Opgrader din oplevelse",
+    "no": "Oppgrader opplevelsen din",
+    "fi": "Päivitä kokemustasi"
+  },
+  "paywall_nautical_preamble": {
+    "sv": "Anpassa appen efter dina behov. Skippo erbjuder olika abonnemang med olika funktionalitet. Välj själv hur du vill du använda appen!",
+    "dk": "Tilpas appen efter dine behov. Skippo tilbyder forskellige abonnementer med forskellig funktionalitet. Vælg selv, hvordan du vil bruge appen!",
+    "no": "Tilpass appen etter dine behov. Skippo tilbyr ulike abonnementer med ulik funksjonalitet. Velg selv hvordan du vil bruke appen!",
+    "fi": "Skippo tarjoaa kaksi navigointipakettia - valitse itse, miten haluat käyttää sovellusta"
+  },
+  "paywall_button_purchase": {
+    "sv": "Aktivera",
+    "dk": "Aktiver",
+    "no": "Aktiver",
+    "fi": "Aktivoi"
+  },
+  "paywall_highlighted_pill": {
+    "sv": "Populär",
+    "dk": "Populær",
+    "no": "Populær",
+    "fi": "Suosittu"
+  },
+  "paywall_highlighted_inverted_pill": {
+    "sv": "Rekommenderas",
+    "dk": "Anbefales",
+    "no": "Anbefales",
+    "fi": "Suositellaan"
+  },
+  "paywall_feature_charts": {
+    "sv": "Digitala sjökort",
+    "dk": "Digitale søkort",
+    "no": "Digitale sjøkart",
+    "fi": "Digitaaliset merikartat"
+  },
+  "paywall_feature_trip_meter": {
+    "sv": "Trippmätare, knop & kurs",
+    "dk": "Tripmeter, knob & kurs",
+    "no": "Tripmeter, knop & kurs",
+    "fi": "Matkamittari, solmu & kurssi"
+  },
+  "paywall_feature_follow_position": {
+    "sv": "Sjökortet följer din position",
+    "dk": "Søkortet følger din position",
+    "no": "Sjøkartet følger din posisjon",
+    "fi": "Merikartta seuraa sijaintiasi"
+  },
+  "paywall_feature_save_places": {
+    "sv": "Spara platser & spår",
+    "dk": "Gem steder & spor",
+    "no": "Lagre steder & spor",
+    "fi": "Tallenna paikat & reitit"
+  },
+  "paywall_feature_distance_measurement": {
+    "sv": "Avståndsmätning",
+    "dk": "Afstandsmåling",
+    "no": "Avstandsmåling",
+    "fi": "Etäisyyden mittaus"
+  },
+  "paywall_feature_autorouting": {
+    "sv": "Autoruttning",
+    "dk": "Autorouting",
+    "no": "Autorouting",
+    "fi": "Autorouting"
+  },
+  "paywall_feature_weather": {
+    "sv": "Vind & väder på sjökortet",
+    "dk": "Vind & vejr på søkortet",
+    "no": "Vind & vær på sjøkartet",
+    "fi": "Tuuli & sää merikartalla"
+  },
+  "paywall_feature_offline_maps": {
+    "sv": "Offlinekartor",
+    "dk": "Offlinekort",
+    "no": "Offlinekart",
+    "fi": "Offline-kartat"
+  },
+  "paywall_feature_anchor_watch": {
+    "sv": "Ankarvakt",
+    "dk": "Ankerwatch",
+    "no": "Ankerwatch",
+    "fi": "Ankkurivahti"
+  },
+  "paywall_feature_filter_ais": {
+    "sv": "Filtrera AIS-båtar",
+    "dk": "Filtrer AIS-både",
+    "no": "Filtrer AIS-båter",
+    "fi": "Suodata AIS-veneet"
+  },
+  "paywall_feature_hydrographica": {
+    "sv": "Hydrographica specialsjökort",
+    "dk": "Hydrographica special søkort",
+    "no": "Hydrographica spesialsjøkart",
+    "fi": "Hydrographica erikoismerikartta"
+  },
+  "paywall_feature_smarter_autorouting": {
+    "sv": "Smartare autoruttning",
+    "dk": "Smartere autorouting",
+    "no": "Smartere autorouting",
+    "fi": "Älykkäämpi autorouting"
+  },
+  "paywall_feature_shallow_water": {
+    "sv": "Ta dig fram i grundare vatten",
+    "dk": "Naviger i lavt vand",
+    "no": "Naviger i grunt vann",
+    "fi": "Navigoi matalassa vedessä"
+  },
+  "paywall_feature_marked_moorings": {
+    "sv": "Utmarkerade förtöjningsplatser",
+    "dk": "Markerede fortøjningspladser",
+    "no": "Merka fortøyningsteder",
+    "fi": "Merkityt kiinnityspaikat"
+  },
+  "paywall_feature_hydrographica_aerial_photos": {
+    "sv": "Hydrographica flygfoton",
+    "dk": "Hydrographica flyfotos",
+    "no": "Hydrographica flyfotos",
+    "fi": "Hydrographica ilmakuvat"
+  },
+  "paywall_feature_show_shallow_water": {
+    "sv": "Öppnar upp grunda vatten",
+    "dk": "Vis lavt vand",
+    "no": "Vis grunt vann",
+    "fi": "Näytä matala vesi"
+  },
+  "paywall_feature_follow_ais_boats": {
+    "sv": "Följ båtar med AIS",
+    "dk": "Følg både med AIS",
+    "no": "Følg båter med AIS",
+    "fi": "Seuraa veneitä AIS:llä"
+  },
+  "paywall_feature_3D_tilt": {
+    "sv": "3D-lutning",
+    "dk": "3D-vipning",
+    "no": "3D-vipning",
+    "fi": "3D-kallistus"
+  },
+  "paywall_feature_search_destination": {
+    "sv": "Sök färdmål",
+    "dk": "Søg destination",
+    "no": "Søk destinasjon",
+    "fi": "Etsi määränpää"
+  },
+  "paywall_feature_review_destination": {
+    "sv": "Recensioner av färdmål",
+    "dk": "Anmeldelser af destinationer",
+    "no": "Anmeldelser av destinasjoner",
+    "fi": "Arvostelut määränpäästä"
+  },
+  "paywall_feature_basic_weather_forecast": {
+    "sv": "Grundläggande väderprognos",
+    "dk": "Basal vejrudsigt",
+    "no": "Grunnleggende værmelding",
+    "fi": "Perus sääennuste"
+  },
+  "paywall_feature_share_your_location": {
+    "sv": "Dela plats på sjökortet",
+    "dk": "Del placering på søkortet",
+    "no": "Del plassering på sjøkartet",
+    "fi": "Jaa sijaint"
+  },
+  "paywall_feature_man_overboard": {
+    "sv": "Man överbord",
+    "dk": "Mand over bord",
+    "no": "Mann over bord",
+    "fi": "Mies yli laidan"
+  },
+  "paywall_feature_short_harbor_descriptions": {
+    "sv": "Korta hamnbeskrivningar",
+    "dk": "Korte havbeskrivelser",
+    "no": "Korte havbeskrivelser",
+    "fi": "Lyhyet satamakuvaukset"
+  },
+  "paywall_feature_filtered_search": {
+    "sv": "Filtrerat sök",
+    "dk": "Filtreret søg",
+    "no": "Filtrert søk",
+    "fi": "Suodatettu haku"
+  },
+  "paywall_feature_aerial_maps": {
+    "sv": "Aerial kartor",
+    "dk": "Aerial kort",
+    "no": "Aerial kart",
+    "fi": "Aerial kartat"
+  },
+  "paywall_feature_save_share_routes": {
+    "sv": "Spara och dela rutt",
+    "dk": "Gem og del rute",
+    "no": "Lagre og del rute",
+    "fi": "Tallenna ja jaa reitti"
+  },
+  "paywall_feature_import_export_gpx": {
+    "sv": "Importera/Exportera GPX-filer",
+    "dk": "Importer/Eksporter GPX-filer",
+    "no": "Importer/Eksporter GPX-filer",
+    "fi": "Tuo/vie GPX-tiedostoja"
+  },
+  "paywall_feature_boat_insurance_discount": {
+    "sv": "10% rabatt på din båtförsäkring*",
+    "dk": "10% rabat på din bådforsikring*",
+    "no": "10% rabatt på båtforsikringen din*",
+    "fi": "10% alennus veneenvakuutuksestasi*"
+  },
+
+  "paywall_package_start_preamble": {
+    "sv": "Navigationshjälpmedel för din trygghet på sjön.",
+    "dk": "Navigationshjælpemidler til din sikkerhed på havet.",
+    "no": "Navigasjonshjelpemidler for din sikkerhet på sjøen.",
+    "fi": "Navigointityökalut turvallisuutesi takaamiseksi merellä."
+  },
+  "paywall_package_smart_preamble": {
+    "sv": "Smarta funktioner för effektiv planering och navigering.",
+    "dk": "Smart funktionalitet til effektiv planlægning og navigation.",
+    "no": "Smarte funksjoner for effektiv planlegging og navigering.",
+    "fi": "Älykkäät toiminnot tehokasta suunnittelua ja navigointia varten."
+  },
+  "paywall_package_premium_preamble": {
+    "sv": "Mer detaljerade sjökort och smartare autorutting.",
+    "dk": "Mere detaljerede søkort og smartere autorouting.",
+    "no": "Mer detaljerte sjøkart og smartere autorouting.",
+    "fi": "Yksityiskohtaisemmat merikartat ja älykkäämpi autorouting."
+  },
+  "paywall_package_hydrographica_preamble": {
+    "sv": "Detaljerad kartografisk information från Hydrographica för svenska vatten och sjökort över Finlands kust",
+    "dk": "Detaljeret kortografisk information fra Hydrographica for svenske farvande og søkort over Finlands kyst",
+    "no": "Detaljert kartografisk informasjon fra Hydrographica for svenske farvann og sjøkart over Finlands kyst",
+    "fi": "Yksityiskohtaiset kartografiset tiedot Hydrographicalta Ruotsin vesille ja Suomen rannikon merikartat"
+  },
+  "paywall_package_hamnguiden_preamble": {
+    "sv": "Hitta den perfekta gäst- eller naturhamnen för varje tillfälle.",
+    "dk": "Find den perfekte gæste- eller naturhavn til enhver lejlighed.",
+    "no": "Finn den perfekte gjeste- eller naturhavnen for enhver anledning.",
+    "fi": "Löydä täydellinen vieras- tai luonnonsatama jokaiseen tilanteeseen."
+  },
+  "paywall_package_skippo_plus_preamble": {
+    "sv": "Allt låst innehåll på sajten och +500 båttester.",
+    "dk": "Alt låst indhold på siden og +500 bådtests.",
+    "no": "Alt låst innhold på siden og +500 bådtester.",
+    "fi": "Kaikki lukittu sisältö sivustolla ja +500 venetestiä."
+  },
+  "paywall_package_maps_dk_header": {
+    "sv": "Danska sjökort",
+    "dk": "Danske søkort",
+    "no": "Danske sjøkart",
+    "fi": "Tanskan merikartat"
+  },
+  "paywall_package_maps_dk_preamble": {
+    "sv": "Sjökort för Danmark",
+    "dk": "Søkort for Danmark",
+    "no": "Sjøkart for Danmark",
+    "fi": "Merikartat Tanskaan"
+  },
+  "paywall_package_maps_se_header": {
+    "sv": "Sverige",
+    "dk": "Sverige & Finland",
+    "no": "Sverige & Finland",
+    "fi": "Ruotsiin"
+  },
+  "paywall_package_maps_se_preamble": {
+    "sv": "Sjökort för Sverige",
+    "dk": "Søkort for Sverige",
+    "no": "Sjøkart for Sverige",
+    "fi": "Merikartat Ruotsiin"
+  },
+  "paywall_package_smart_feature_header": {
+    "sv": "Alla funktioner i Start och:",
+    "dk": "Alle funktioner i Start og:",
+    "no": "Alle funksjoner i Start og:",
+    "fi": "Kaikki omin"
+  },
+  "paywall_package_premium_feature_header": {
+    "sv": "Alla funktioner i Smart och:",
+    "dk": "Alle funktioner i Smart og:",
+    "no": "Alle funksjoner i Smart og:",
+    "fi": "Kaikki omin"
+  },
+  "product_promo_page_header": {
+    "sv": "Hur vill du navigera?",
+    "dk": "Hvordan vil du navigere?",
+    "no": "Hvordan vil du navigere?",
+    "fi": "Miten haluat navigoida?"
+  },
+  "product_promo_page_preamble": {
+    "sv": "Anpassa appen efter dina behov. Skippo erbjuder tre navigationspaket - välj själv hur du vill du använda appen",
+    "dk": "Tilpas appen efter dine behov. Skippo tilbyder to navigationspakker - vælg selv, hvordan du vil bruge appen.",
+    "no": "Tilpass appen etter dine behov. Skippo tilbyr to navigasjonspakker - velg selv hvordan du vil bruke appen",
+    "fi": "Skippo tarjoaa kaksi navigointipakettia - valitse itse, miten haluat käyttää sovellusta"
+  },
+  "product_promo_page_slim_banner_purchase": {
+    "sv": "Aktivera",
+    "dk": "Aktiver",
+    "no": "Aktiver",
+    "fi": "Aktivoi"
+  },
+  "product_promo_page_features_expand_button": {
+    "sv": "Jämför alla funktioner",
+    "dk": "Sammenlign alle funktioner",
+    "no": "Se alle funksjoner",
+    "fi": "Vertaa kaikkia ominaisuuksia"
+  },
+  "product_promo_page_gallery_header": {
+    "sv": " Uppgradera din upplevelse",
+    "dk": "Opgrader din oplevelse",
+    "no": "Oppgrader opplevelsen din",
+    "fi": "Päivitä kokemustasi"
+  },
+  "product_promo_page_gallery_from_price": {
+    "sv": "fr",
+    "dk": "fra",
+    "no": "fra",
+    "fi": "alkaen"
+  },
+  "product_promo_page_gallery_active_product_button": {
+    "sv": "Lägg till",
+    "dk": "Tilføj",
+    "no": "Legg til",
+    "fi": "Lisää"
+  },
+  "product_promo_page_gallery_read_more_button": {
+    "sv": "Läs mer",
+    "dk": "Læs mere",
+    "no": "Les mer",
+    "fi": "Lue lisää"
+  },
+  "product_promo_page_gallery_hamnguiden_header": {
+    "sv": "Hamnguiden",
+    "dk": "Hamnguiden",
+    "no": "Havneguiden",
+    "fi": "Hamnguiden"
+  },
+  "product_promo_page_gallery_hamnguiden_preamble": {
+    "sv": "Hitta den bästa hamnen med utförliga guider och filtrer för vindriktning, faciliteter och ankringstyp.",
+    "dk": "Find den bedste havn med udførlige guider og filtrer efter vindretning, faciliteter og ankringstype.",
+    "no": "Finn den beste havnen med utfyllende guider og filtrer etter vindretning, fasiliteter og ankringstype.",
+    "fi": "Löydä paras satama yksityiskohtaisten oppaiden avulla ja suodata tuulen suunnan, palveluiden ja ankkurointityypin mukaan."
+  },
+  "product_promo_page_gallery_sea_charts_header": {
+    "sv": "Lägg till sjökort",
+    "dk": "Tilføj søkort",
+    "no": "Legg til sjøkart",
+    "fi": "Lisää merikartat"
+  },
+  "product_promo_page_gallery_sea_charts_preamble": {
+    "sv": "Navigera tryggt och säkert i nya farvatten.",
+    "dk": "Naviger sikkert og sikkert i nye farvande.",
+    "no": "Naviger trygt og sikkert i nye farvann.",
+    "fi": "Navigoi turvallisesti ja varmasti uusissa vesissä."
+  },
+  "product_promo_page_gallery_skippo_plus_header": {
+    "sv": "Skippo Plus",
+    "dk": "Skippo Plus",
+    "no": "Skippo Plus",
+    "fi": "Skippo Plus"
+  },
+  "product_promo_page_gallery_skippo_plus_preamble": {
+    "sv": "Skippo Plus ger dig access till alla låsta artiklar på {link} och ett arkiv med +500 båttester.",
+    "dk": "Skippo Plus giver dig adgang til alt låst indhold på {link} og et arkiv med +500 bådtests.",
+    "no": "Skippo Plus gir deg tilgang til alt låst innhold på {link} og et arkiv med +500 bådtester.",
+    "fi": "Skippo Plus antaa sinulle pääsyn kaikkiin lukittuihin artikkeleihin {link} ja arkiston, jossa on yli 500 venetestiä."
+  },
+  "product_promo_page_gallery_skippo_hydrographica_header": {
+    "sv": "Hydrographica",
+    "dk": "Hydrographica",
+    "no": "Hydrographica",
+    "fi": "Hydrographica"
+  },
+  "product_promo_page_gallery_skippo_hydrographica_preamble": {
+    "sv": "Detaljerade specialsjökort från Hydrographica – perfekt för navigation i grunda vatten.",
+    "dk": "Detaljerede special søkort fra Hydrographica - perfekt til navigation i lavt vand.",
+    "no": "Detaljerte spesialsjøkart fra Hydrographica - perfekt for navigering i grunt vann.",
+    "fi": "Yksityiskohtaiset erikoissjökortit Hydrographicalta – täydelliset matalissa vesissä navigointiin."
+  },
+  "user_profile_edit_id_label": {
+    "sv": "ID",
+    "dk": "ID",
+    "no": "ID",
+    "fi": "ID"
+  },
+  "user_profile_edit_skippo_id_label": {
+    "sv": "Skippo ID",
+    "dk": "Skippo ID",
+    "no": "Skippo ID",
+    "fi": "Skippo ID"
+  },
+  "user_profile_edit_id_clipboard_alert_header": {
+    "sv": "ID och Skippo ID kopierat",
+    "dk": "ID og Skippo ID kopieret",
+    "no": "ID og Skippo ID kopiert",
+    "fi": "ID ja Skippo ID kopioitu"
+  },
+  "user_profile_edit_id_clipboard_alert_body": {
+    "sv": "Både ID och Skippo ID är sparad till urklipp.",
+    "dk": "Både ID og Skippo ID er gemt til udklipsholder.",
+    "no": "Både ID og Skippo ID er lagret til utklippstavlen.",
+    "fi": "Både ID ja Skippo ID on tallennettu leikepöydälle."
+  },
+  "boat_type_motor": {
+    "sv": "Motorbåt",
+    "dk": "Motorbåd",
+    "no": "Motorbåt",
+    "fi": "Moottorivene"
+  },
+  "boat_type_sail": {
+    "sv": "Segelbåt",
+    "dk": "Sejlbåd",
+    "no": "Seilbåt",
+    "fi": "Purjevene"
+  },
+  "boat_type_diving": {
+    "sv": "Dykfartyg",
+    "dk": "Dykkefartøy",
+    "no": "Dykfartyg",
+    "fi": "Sukellusalus"
+  },
+  "boat_type_other": {
+    "sv": "Annan",
+    "dk": "Anden",
+    "no": "Annen",
+    "fi": "Muu"
+  },
+  "boat_type_tug": {
+    "sv": "Bogserbåt",
+    "dk": "Trækbåd",
+    "no": "Slepebåt",
+    "fi": "Hinausvene"
+  },
+  "boat_type_fishing": {
+    "sv": "Fiskebåt",
+    "dk": "Fiskebåd",
+    "no": "Fiskebåt",
+    "fi": "Kalastusvene"
+  },
+  "boat_type_hsc": {
+    "sv": "Snabbfärja",
+    "dk": "hurtigfærge",
+    "no": "Hurtigbåt",
+    "fi": "Pikalaiva"
+  },
+  "boat_type_cargo": {
+    "sv": "Lastfartyg",
+    "dk": "Fragtbåd",
+    "no": "Lastebåt",
+    "fi": "Rahtivene"
+  },
+  "boat_type_sar": {
+    "sv": "SAR",
+    "dk": "SAR",
+    "no": "SAR",
+    "fi": "SAR"
+  },
+  "boat_type_pleasure": {
+    "sv": "Fritidsbåt",
+    "dk": "Fritidsbåd",
+    "no": "Fritidsbåt",
+    "fi": "Vapaa-ajan vene"
+  },
+  "boat_type_passenger": {
+    "sv": "Passagerarfartyg",
+    "dk": "Passagerarfartyg",
+    "no": "Passagerskib",
+    "fi": "Matkustaja-alus"
+  },
+  "boat_type_diver": {
+    "sv": "Dykfartyg",
+    "dk": "Dykfartyg",
+    "no": "Dykkerfartøj",
+    "fi": "Sukellusalus"
+  },
+  "boat_type_military": {
+    "sv": "Militär",
+    "dk": "Militär",
+    "no": "Militær",
+    "fi": "Sotilaallinen"
+  },
+  "boat_type_unknown": {
+    "sv": "Okänd",
+    "dk": "Okänd",
+    "no": "Ukjent",
+    "fi": "Tuntematon"
+  },
+  "boat_type_tanker": {
+    "sv": "Tankfartyg",
+    "dk": "Tankfartyg",
+    "no": "Tankfartyg",
+    "fi": "Tankkeri"
+  },
+  "boat_type_law": {
+    "sv": "Polisbåt",
+    "dk": "Polisbåt",
+    "no": "Politibåt",
+    "fi": "Poliisivene"
+  },
+  "boat_type_dredging": {
+    "sv": "Mudderverk",
+    "dk": "Mudderverk",
+    "no": "Mudderverk",
+    "fi": "Ruoppaaja"
+  },
+  "boat_type_sailing": {
+    "sv": "Segelbåt",
+    "dk": "Sejlbåd",
+    "no": "Seilbåt",
+    "fi": "Purjevene"
+  },
+  "boat_type_pilot": {
+    "sv": "Lotsbåt",
+    "dk": "Lotsbåt",
+    "no": "Pilotbåt",
+    "fi": "Pilottivene"
+  },
+  "boat_type_skippo_sail": {
+    "sv": "Skippo Segelbåt",
+    "dk": "Skippo Sejlbåd",
+    "no": "Skippo Seilbåt",
+    "fi": "Skippo Purjevene"
+  },
+  "boat_type_skippo_motor": {
+    "sv": "Skippo Motorbåt",
+    "dk": "Skippo Motorbåd",
+    "no": "Skippo Motorbåt",
+    "fi": "Skippo Moottorivene"
+  },
+  "boat_type_wig": {
+    "sv": "Sjöflygplan",
+    "dk": "Sjöflygplan",
+    "no": "Sjøflygplan",
+    "fi": "Vesilentokone"
+  },
+  "boat_type_anti_pollution": {
+    "sv": "Saneringsskip",
+    "dk": "Saneringsskip",
+    "no": "Saneringsskip",
+    "fi": "Puhdistusalus"
+  },
+  "boat_popup_knots": {
+    "sv": "knop",
+    "dk": "knob",
+    "no": "knop",
+    "fi": "solmu"
+  },
+  "boat_type_skippomotorboatwithcabin": {
+    "sv": "Skippo Motorbåt med kabin",
+    "dk": "Skippo Motorbåd med kahyt",
+    "no": "Skippo Motorbåt med kabin",
+    "fi": "Skippo Moottorivene kajuutalla"
+  },
+  "boat_type_skipposailboatwithcabin": {
+    "sv": "Skippo Segelbåt med kabin",
+    "dk": "Skippo Sejlbåd med kahyt",
+    "no": "Skippo Seilbåt med kabin",
+    "fi": "Skippo Purjevene kajuutalla"
+  },
+  "boat_type_skippounknown": {
+    "sv": "Skippo Okänd",
+    "dk": "Skippo Ukendt",
+    "no": "Skippo Ukjent",
+    "fi": "Skippo Tuntematon"
+  },
+  "boat_type_skipposmallboat": {
+    "sv": "Skippo Liten båt",
+    "dk": "Skippo Lille båd",
+    "no": "Skippo Liten båt",
+    "fi": "Skippo Pieni vene"
+  },
+  "boat_type_skippodaycruiser": {
+    "sv": "Skippo Daycruiser",
+    "dk": "Skippo Daycruiser",
+    "no": "Skippo Daycruiser",
+    "fi": "Skippo Daycruiser"
+  },
+  "paywall_package_hamnguiden_header": {
+    "sv": "Hamnguiden",
+    "dk": "Havneguiden",
+    "no": "Havneguiden",
+    "fi": "Satamakirja"
+  },
+  "paywall_disclaimer_boat_insurance": {
+    "sv": "*Gäller för tillfället endast för kunder hos Svenska Sjö.",
+    "dk": "*Gælder i øjeblikket kun for kunder hos Svenska Sjö.",
+    "no": "*Gjelder foreløpig kun for kunder hos Svenska Sjö.",
+    "fi": "*Koskee tällä hetkellä vain Svenska Sjön asiakkaita."
+  },
+  "auth_first_name_required_error": {
+    "sv": "Fyll i ditt förnamn för att fortsätta.",
+    "dk": "Udfyld dit fornavn for at fortsætte.",
+    "no": "Fyll inn fornavnet ditt for å fortsette.",
+    "fi": "Täytä etunimesi jatkaaksesi."
+  },
+  "auth_use_different_email": {
+    "sv": "Använd en annan e-postadress",
+    "dk": "Brug en anden e-mailadresse",
+    "no": "Bruk en annen e-postadresse",
+    "fi": "Käytä toista sähköpostiosoitetta"
+  },
+  "auth_continue_button": {
+    "sv": "Fortsätt",
+    "dk": "Fortsæt",
+    "no": "Fortsett",
+    "fi": "Jatka"
+  },
+  "auth_enter_email_label": {
+    "sv": "Ange din e-postadress",
+    "dk": "Indtast din e-mailadresse",
+    "no": "Skriv inn e-postadressen din",
+    "fi": "Kirjoita sähköpostiosoitteesi"
+  },
+  "auth_email_required_error": {
+    "sv": "Fyll i din e-postadress här.",
+    "dk": "Udfyld din e-mailadresse her.",
+    "no": "Fyll inn e-postadressen din her.",
+    "fi": "Täytä sähköpostiosoitteesi tähän."
+  },
+  "auth_email_invalid_error": {
+    "sv": "Fyll i en giltig e-postadress.",
+    "dk": "Udfyld en gyldig e-mailadresse.",
+    "no": "Fyll inn en gyldig e-postadresse.",
+    "fi": "Täytä kelvollinen sähköpostiosoite."
+  },
+  "auth_email_not_found_error": {
+    "sv": "Vi hittar inget konto med den här e-postadressen. Kontrollera stavningen.",
+    "dk": "Vi kan ikke finde en konto med denne e-mailadresse. Tjek stavningen.",
+    "no": "Vi finner ingen konto med denne e-postadressen. Sjekk stavingen.",
+    "fi": "Emme löydä tiliä tällä sähköpostiosoitteella. Tarkista kirjoitusasu."
+  },
+  "auth_generic_error": {
+    "sv": "Ett fel uppstod. Försök igen.",
+    "dk": "Der opstod en fejl. Prøv igen.",
+    "no": "Det oppstod en feil. Prøv igjen.",
+    "fi": "Virhe. Yritä uudelleen."
+  },
+  "auth_reset_email_error": {
+    "sv": "Ett fel uppstod vid skickande av återställningslänk. Försök igen.",
+    "dk": "Der opstod en fejl under afsendelse af nulstillingslink. Prøv igen.",
+    "no": "Det oppstod en feil under sending av tilbakestillingslenke. Prøv igjen.",
+    "fi": "Palautuslinkin lähettämisessä tapahtui virhe. Yritä uudelleen."
+  },
+  "auth_privacy_text": {
+    "sv": "Genom att fortsätta samtycker du till Skippos ",
+    "dk": "Ved at fortsætte accepterer du Skippos ",
+    "no": "Ved å fortsette samtykker du til Skippos ",
+    "fi": "Jatkamalla hyväksyt Skippon "
+  },
+  "auth_privacy_policy_link": {
+    "sv": "Privacy policy",
+    "dk": "Privacy policy",
+    "no": "Privacy policy",
+    "fi": "Privacy policy"
+  },
+  "auth_privacy_and_text": {
+    "sv": " och ",
+    "dk": " og ",
+    "no": " og ",
+    "fi": " ja "
+  },
+  "auth_terms_link": {
+    "sv": "Användarvillkor",
+    "dk": "Brugervilkår",
+    "no": "Brukervilkår",
+    "fi": "Käyttöehdot"
+  },
+  "auth_login_title": {
+    "sv": "Logga in",
+    "dk": "Log ind",
+    "no": "Logg inn",
+    "fi": "Kirjaudu sisään"
+  },
+  "auth_reset_password_title": {
+    "sv": "Återställ lösenord",
+    "dk": "Nulstil adgangskode",
+    "no": "Tilbakestill passord",
+    "fi": "Palauta salasana"
+  },
+  "auth_create_account_title": {
+    "sv": "Skapa konto",
+    "dk": "Opret konto",
+    "no": "Opprett konto",
+    "fi": "Luo tili"
+  },
+  "auth_create_account_with_email_button": {
+    "sv": "Fortsätt med e-post",
+    "dk": "Fortsæt med e-mail",
+    "no": "Fortsett med e-post",
+    "fi": "Jatka sähköpostilla"
+  },
+  "auth_enter_password_label": {
+    "sv": "Ange ett lösenord",
+    "dk": "Indtast et kodeord",
+    "no": "Skriv inn et passord",
+    "fi": "Kirjoita salasana"
+  },
+  "auth_repeat_password_label": {
+    "sv": "Upprepa lösenordet",
+    "dk": "Gentag kodeordet",
+    "no": "Gjenta passordet",
+    "fi": "Toista salasana"
+  },
+  "auth_show_password": {
+    "sv": "Visa",
+    "dk": "Vis",
+    "no": "Vis",
+    "fi": "Näytä"
+  },
+  "auth_hide_password": {
+    "sv": "Dölj",
+    "dk": "Skjul",
+    "no": "Skjul",
+    "fi": "Piilota"
+  },
+  "auth_show_password_label": {
+    "sv": "Visa lösenord",
+    "dk": "Vis kodeord",
+    "no": "Vis passord",
+    "fi": "Näytä salasana"
+  },
+  "auth_hide_password_label": {
+    "sv": "Dölj lösenord",
+    "dk": "Skjul kodeord",
+    "no": "Skjul passord",
+    "fi": "Piilota salasana"
+  },
+  "auth_show_repeat_password_label": {
+    "sv": "Visa upprepa lösenord",
+    "dk": "Vis gentag kodeord",
+    "no": "Vis gjenta passord",
+    "fi": "Näytä toista salasana"
+  },
+  "auth_hide_repeat_password_label": {
+    "sv": "Dölj upprepa lösenord",
+    "dk": "Skjul gentag kodeord",
+    "no": "Skjul gjenta passord",
+    "fi": "Piilota toista salasana"
+  },
+  "auth_password_required_error": {
+    "sv": "Fyll i ett lösenord",
+    "dk": "Udfyld et kodeord",
+    "no": "Fyll inn et passord",
+    "fi": "Täytä salasana"
+  },
+  "auth_password_invalid_error": {
+    "sv": "Ogiltigt lösenord.",
+    "dk": "Ugyldigt kodeord.",
+    "no": "Ugyldig passord.",
+    "fi": "Virheellinen salasana."
+  },
+  "auth_password_min_length_error": {
+    "sv": "Lösenordet måste vara minst 8 tecken långt.",
+    "dk": "Adgangskoden skal være mindst 8 tegn lang.",
+    "no": "Passordet må være minst 8 tegn langt.",
+    "fi": "Salasanan on oltava vähintään 8 merkkiä pitkä."
+  },
+  "auth_password_uppercase_error": {
+    "sv": "Lösenordet måste innehålla minst en stor bokstav.",
+    "dk": "Adgangskoden skal indeholde mindst ét stort bogstav.",
+    "no": "Passordet må inneholde minst én stor bokstav.",
+    "fi": "Salasanassa on oltava vähintään yksi iso kirjain."
+  },
+  "auth_password_lowercase_error": {
+    "sv": "Lösenordet måste innehålla minst en liten bokstav.",
+    "dk": "Adgangskoden skal indeholde mindst ét lille bogstav.",
+    "no": "Passordet må inneholde minst én liten bokstav.",
+    "fi": "Salasanassa on oltava vähintään yksi pieni kirjain."
+  },
+  "auth_password_numbers_error": {
+    "sv": "Lösenordet måste innehålla minst en siffra.",
+    "dk": "Adgangskoden skal indeholde mindst ét tal.",
+    "no": "Passordet må inneholde minst ett tall.",
+    "fi": "Salasanassa on oltava vähintään yksi numero."
+  },
+  "auth_password_special_chars_error": {
+    "sv": "Lösenordet måste innehålla minst ett specialtecken.",
+    "dk": "Adgangskoden skal indeholde mindst ét specialtegn.",
+    "no": "Passordet må inneholde minst ett spesialtegn.",
+    "fi": "Salasanassa on oltava vähintään yksi erikoismerkki."
+  },
+  "auth_passwords_dont_match_error": {
+    "sv": "Lösenorden i båda fälten måste vara identiska.",
+    "dk": "Kodeordene i begge felter skal være identiske.",
+    "no": "Passordene i begge feltene må være identiske.",
+    "fi": "Salasanojen molemmissa kentissä on oltava identtiset."
+  },
+  "auth_change_button": {
+    "sv": "Ändra",
+    "dk": "Skift",
+    "no": "Endre",
+    "fi": "Vaihda"
+  },
+  "auth_enter_name_label": {
+    "sv": "Ange ditt namn",
+    "dk": "Indtast dit navn",
+    "no": "Skriv inn navnet ditt",
+    "fi": "Kirjoita nimesi"
+  },
+  "auth_first_name_placeholder": {
+    "sv": "Förnamn*",
+    "dk": "Fornavn*",
+    "no": "Fornavn*",
+    "fi": "Etunimi*"
+  },
+  "auth_last_name_placeholder": {
+    "sv": "Efternamn",
+    "dk": "Efternavn",
+    "no": "Etternavn",
+    "fi": "Sukunimi"
+  },
+  "auth_welcome_back_header": {
+    "sv": "Välkommen tillbaka!",
+    "dk": "Velkommen tilbage!",
+    "no": "Velkommen tilbake!",
+    "fi": "Tervetuloa takaisin!"
+  },
+  "auth_account_exists_info": {
+    "sv": "Det finns redan ett konto kopplat till denna e-postadress. Ange ditt lösenord för att logga in.",
+    "dk": "Der findes allerede en konto tilknyttet denne e-mailadresse. Indtast dit kodeord for at logge ind.",
+    "no": "Det finnes allerede en konto tilknyttet denne e-postadressen. Skriv inn passordet ditt for å logge inn.",
+    "fi": "Tähän sähköpostiosoitteeseen on jo yhdistetty tili. Kirjoita salasanasi kirjautuaksesi sisään."
+  },
+  "auth_enter_your_password_label": {
+    "sv": "Ange ditt lösenord",
+    "dk": "Indtast dit kodeord",
+    "no": "Skriv inn passordet ditt",
+    "fi": "Kirjoita salasanasi"
+  },
+  "auth_forgot_password_link": {
+    "sv": "Jag har glömt lösenordet",
+    "dk": "Jeg har glemt mit kodeord",
+    "no": "Jeg har glemt passordet mitt",
+    "fi": "Olen unohtanut salasanani"
+  },
+  "auth_google_login_info": {
+    "sv": "Denna e-postadress är kopplad till Google som inloggningsmetod. Logga in med Google för att fortsätta.",
+    "dk": "Denne e-mailadresse er tilknyttet Google som login-metode. Log ind med Google for at fortsætte.",
+    "no": "Denne e-postadressen er tilknyttet Google som innloggingsmetode. Logg inn med Google for å fortsette.",
+    "fi": "Tämä sähköpostiosoite on yhdistetty Googlen kirjautumismenetelmään. Kirjaudu sisään Googlella jatkaaksesi."
+  },
+  "auth_apple_login_info": {
+    "sv": "Denna e-postadress är kopplad till Apple som inloggningsmetod. Logga in med Apple för att fortsätta.",
+    "dk": "Denne e-mailadresse er tilknyttet Apple som login-metode. Log ind med Apple for at fortsætte.",
+    "no": "Denne e-postadressen er tilknyttet Apple som innloggingsmetode. Logg inn med Apple for å fortsette.",
+    "fi": "Tämä sähköpostiosoite on yhdistetty Applen kirjautumismenetelmään. Kirjaudu sisään Applella jatkaaksesi."
+  },
+  "auth_troubleshoot_link": {
+    "sv": "Felsök problemet",
+    "dk": "Fejlfind problemet",
+    "no": "Feilsøk problemet",
+    "fi": "Ratkaise ongelma"
+  },
+  "auth_troubleshoot_url": {
+    "sv": "https://support.skippo.io/hc/sv/articles/19429620855964-Vad-g%C3%B6r-jag-om-jag-inte-kan-logga-in-i-Skippo-appen",
+    "dk": "https://support.skippo.io/hc/da/articles/19429620855964-Hvad-g%C3%B8r-jeg-hvis-jeg-ikke-kan-logge-ind-i-Skippo-appen",
+    "no": "https://support.skippo.io/hc/no/articles/19429620855964-Hva-gj%C3%B8r-jeg-hvis-jeg-ikke-kan-logge-inn-i-Skippo-appen",
+    "fi": "https://support.skippo.io/hc/fi/articles/19429620855964-En-p%C3%A4%C3%A4se-kirjautumaan-Skippo-sovellukseen-mit%C3%A4-voin-tehd%C3%A4"
+  },
+  "auth_privacy_policy_url": {
+    "sv": "/integritetspolicy",
+    "dk": "/privacy-policy-dk",
+    "no": "/privacy-policy-no",
+    "fi": "/privacy-policy-fi"
+  },
+  "auth_terms_url": {
+    "sv": "/anvandarvillkor",
+    "dk": "/terms-of-use-dk",
+    "no": "/terms-of-use-no",
+    "fi": "/terms-of-use-fi"
+  },
+  "auth_reset_password_instruction": {
+    "sv": "Ange din e-postadress så skickar vi en länk för att återställa ditt lösenord",
+    "dk": "Indtast din e-mailadresse, så sender vi dig et link til at nulstille dit kodeord",
+    "no": "Skriv inn e-postadressen din, så sender vi deg en lenke for å tilbakestille passordet",
+    "fi": "Kirjoita sähköpostiosoitteesi, niin lähetämme sinulle linkin salasanan nollaamiseksi"
+  },
+  "auth_email_label": {
+    "sv": "E-post",
+    "dk": "E-mail",
+    "no": "E-post",
+    "fi": "Sähköposti"
+  },
+  "auth_send_button": {
+    "sv": "Skicka",
+    "dk": "Send",
+    "no": "Send",
+    "fi": "Lähetä"
+  },
+  "auth_check_inbox_header": {
+    "sv": "Kolla din inkorg!",
+    "dk": "Tjek din indbakke!",
+    "no": "Sjekk innboksen din!",
+    "fi": "Tarkista postilaatikkosi!"
+  },
+  "auth_reset_email_sent_message": {
+    "sv": "Vi har skickat en återställningslänk med instruktioner till {email} från noreply@accounts.skippo.io. Följ länken för att skapa ett nytt lösenord och logga sedan in i appen.",
+    "dk": "Vi har sendt et nulstillingslink med instruktioner til {email} fra support@skippo.io. Følg linket for at oprette et nyt kodeord og log derefter ind i appen.",
+    "no": "Vi har sendt en tilbakestillingslenke med instruksjoner til {email} fra support@skippo.io. Følg lenken for å lage et nytt passord og logg deretter inn i appen.",
+    "fi": "Olemme lähettäneet palautuslinkin ohjeineen osoitteeseen {email} osoitteesta support@skippo.io. Seuraa linkkiä luodaksesi uuden salasanan ja kirjaudu sen jälkeen sovellukseen."
+  },
+  "auth_check_spam_message": {
+    "sv": "Om du inte hittar mejlet, kolla i skräpposten.",
+    "dk": "Hvis du ikke kan finde e-mailen, tjek spamfolderen.",
+    "no": "Hvis du ikke finner e-posten, sjekk spam-mappen.",
+    "fi": "Jos et löydä sähköpostia, tarkista roskapostikansio."
+  },
+  "auth_no_email_received": {
+    "sv": "Fick du inget mejl? ",
+    "dk": "Modtog du ingen e-mail? ",
+    "no": "Fikk du ingen e-post? ",
+    "fi": "Etkö saanut sähköpostia? "
+  },
+  "auth_send_again_button": {
+    "sv": "Skicka igen",
+    "dk": "Send igen",
+    "no": "Send igjen",
+    "fi": "Lähetä uudelleen"
+  },
+  "auth_sending_status": {
+    "sv": "Skickar...",
+    "dk": "Sender...",
+    "no": "Sender...",
+    "fi": "Lähetetään..."
+  },
+
+  "place_type_bridge": {
+    "sv": "Bro",
+    "dk": "Bro",
+    "no": "Bro",
+    "fi": "Silta"
+  },
+
+  "place_type_water": {
+    "sv": "Vatten",
+    "dk": "Vand",
+    "no": "Vann",
+    "fi": "Vesi"
+  },
+
+  "place_type_seaArea": {
+    "sv": "Havsområde",
+    "dk": "Havområde",
+    "no": "Havområde",
+    "fi": "Merialue"
+  },
+
+  "place_type_island": {
+    "sv": "Ö",
+    "dk": "Ø",
+    "no": "Øy",
+    "fi": "Saari"
+  },
+
+  "place_type_lighthouse": {
+    "sv": "Fyr",
+    "dk": "Fyr",
+    "no": "Fyr",
+    "fi": "Majakka"
+  },
+
+  "place_type_unknown": {
+    "sv": "Plats",
+    "dk": "Sted",
+    "no": "Sted",
+    "fi": "Paikka"
   }
 }
