@@ -1,16 +1,16 @@
 {
   "list_item_modal_add_confirm": {
-    "sv": "Lägg till mig",
+    "sv": "Lägg till",
     "da": "Tilføj",
     "fi": "Lisää",
     "no": "Leg til",
-    "en": "Add me"
+    "en": "Add"
   },
   "list_item_modal_add_cancel": {
     "sv": "Avbryt",
     "da": "Annuller",
     "fi": "Peruuta",
     "no": "Avbryt",
-    "en": "Cancel me test"
+    "en": "Cancel me"
   }
 }
