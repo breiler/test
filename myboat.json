@@ -9,10 +9,16 @@
       "sv" : {
         "approved" : true
       },
+      "da" : {
+        "approved" : true
+      },
       "no" : {
         "approved" : true
       },
-      "da" : {
+      "fi" : {
+        "approved" : true
+      },
+      "en" : {
         "approved" : true
       }
     }
@@ -25,6 +31,18 @@
     "en" : "Cancel me",
     "meta" : {
       "sv" : {
+        "approved" : true
+      },
+      "en" : {
+        "approved" : true
+      },
+      "fi" : {
+        "approved" : true
+      },
+      "da" : {
+        "approved" : true
+      },
+      "no" : {
         "approved" : true
       }
     }
