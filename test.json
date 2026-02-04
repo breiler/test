@@ -17,6 +17,9 @@
       },
       "en" : {
         "approved" : true
+      },
+      "fi" : {
+        "approved" : true
       }
     }
   },
@@ -32,6 +35,15 @@
       },
       "en" : {
         "approved" : true
+      },
+      "no" : {
+        "approved" : true
+      },
+      "da" : {
+        "approved" : true
+      },
+      "fi" : {
+        "approved" : true
       }
     }
   },
@@ -43,6 +55,15 @@
     "en" : "Create route",
     "meta" : {
       "en" : {
+        "approved" : true
+      },
+      "sv" : {
+        "approved" : true
+      },
+      "da" : {
+        "approved" : true
+      },
+      "fi" : {
         "approved" : true
       }
     }
